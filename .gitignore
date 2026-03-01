@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Client deliverables (private per-client work)
+client-work/deliverables/*
+!client-work/deliverables/portfolio-samples
+
+# Client brand guides (private)
+client-work/brand-guides/*
+!client-work/brand-guides/.gitkeep
+
+# Active sales materials (private)
+sales/audits/completed/*
+!sales/audits/completed/.gitkeep
+sales/outreach/active/*
+!sales/outreach/active/.gitkeep
+sales/proposals/sent/*
+!sales/proposals/sent/.gitkeep
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.tmp
+*.bak

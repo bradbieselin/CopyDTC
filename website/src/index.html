@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CopyDTC — AI-powered copywriting agency for DTC brands. Emails, landing pages, ads, blog posts, and social content that converts.">
+    <title>CopyDTC — AI-Powered Copywriting for DTC Brands</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Nav */
+        nav {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #2563eb;
+        }
+
+        .nav-cta {
+            background: #2563eb;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .nav-cta:hover {
+            background: #1d4ed8;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #555;
+            max-width: 550px;
+            margin: 0 auto 40px;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            padding: 16px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .hero-cta:hover {
+            background: #1d4ed8;
+        }
+
+        .trust-line {
+            margin-top: 24px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* Services */
+        .services {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+
+        .services h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .service-card {
+            background: #fff;
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .service-card h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* How it works */
+        .how-it-works {
+            padding: 80px 0;
+        }
+
+        .how-it-works h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            text-align: center;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            background: #2563eb;
+            color: #fff;
+            border-radius: 50%;
+            font-weight: 800;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        .steps h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .steps p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* CTA */
+        .cta-section {
+            padding: 80px 0;
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            color: #aaa;
+            margin-bottom: 32px;
+        }
+
+        .cta-section a {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            padding: 16px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .services-grid, .steps { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">Copy<span>DTC</span></a>
+            <a href="mailto:brad@copydtc.com" class="nav-cta">Get Started</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Copy that sells for DTC brands that scale</h1>
+            <p>AI-powered copywriting agency. Emails, landing pages, ads, blog posts, and social content — written in your brand voice, delivered fast.</p>
+            <a href="mailto:brad@copydtc.com" class="hero-cta">Book a Free Audit</a>
+            <p class="trust-line">No contracts. Cancel anytime. First results in 7 days.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Everything your brand needs to say</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Email Marketing</h3>
+                    <p>Welcome sequences, abandoned cart, post-purchase, promotional, and winback emails that drive revenue from your list.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Landing Pages</h3>
+                    <p>Product pages, collection pages, and advertorials that convert browsers into buyers.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ad Copy</h3>
+                    <p>Meta, Google, and TikTok ads written to stop the scroll and drive clicks.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Blog & SEO</h3>
+                    <p>SEO blog posts, listicles, and how-tos that drive organic traffic and build authority.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Social Media</h3>
+                    <p>Instagram, TikTok, and Twitter content — captions, scripts, and threads that build community.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Product Copy</h3>
+                    <p>Product descriptions, homepage copy, about pages, and SMS that make your brand sound like your brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How it works</h2>
+            <div class="steps">
+                <div>
+                    <div class="step-number">1</div>
+                    <h3>We learn your brand</h3>
+                    <p>Fill out our brand questionnaire. We build your Brand Voice Bible — the master guide for everything we write.</p>
+                </div>
+                <div>
+                    <div class="step-number">2</div>
+                    <h3>We produce content</h3>
+                    <p>Using AI and proven DTC templates, we create high-quality content in your voice — fast.</p>
+                </div>
+                <div>
+                    <div class="step-number">3</div>
+                    <h3>You grow</h3>
+                    <p>You get a stream of ready-to-publish content. We track results and optimize every month.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to sound like the brand you are?</h2>
+            <p>Get a free content audit and see exactly where your copy is leaving money on the table.</p>
+            <a href="mailto:brad@copydtc.com">Get Your Free Audit</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CopyDTC. All rights reserved. | brad@copydtc.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>

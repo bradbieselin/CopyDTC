@@ -1,0 +1,20 @@
+{
+  "name": "copydtc",
+  "version": "1.0.0",
+  "description": "AI-powered copywriting agency for DTC brands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "copywriting",
+    "dtc",
+    "ai",
+    "agency",
+    "ecommerce"
+  ],
+  "author": "Brad Bieselin <brad@copydtc.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
