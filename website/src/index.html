@@ -6,6 +6,10 @@
     <meta name="description" content="CopyDTC — AI-powered copywriting agency for DTC brands. Emails, landing pages, ads, blog posts, and social content that converts.">
     <title>CopyDTC — AI-Powered Copywriting for DTC Brands</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -214,6 +218,316 @@
             font-size: 18px;
         }
 
+        /* Section Label */
+        .section-label {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        /* Problem */
+        .problem {
+            padding: 80px 0;
+        }
+
+        .problem h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .problem-card {
+            background: #fff;
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .problem-card h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .problem-card p {
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+
+        .pricing h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .pricing-card {
+            background: #fff;
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            position: relative;
+            text-align: center;
+        }
+
+        .pricing-card.popular {
+            border: 2px solid #2563eb;
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2563eb;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 16px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .pricing-card h3 {
+            font-size: 22px;
+            margin-bottom: 4px;
+        }
+
+        .pricing-card .price {
+            font-size: 36px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 24px;
+        }
+
+        .pricing-card .price span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #888;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+
+        .pricing-card ul li {
+            padding: 8px 0;
+            font-size: 15px;
+            color: #555;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .pricing-card ul li::before {
+            content: "\2713  ";
+            color: #2563eb;
+            font-weight: 700;
+        }
+
+        .pricing-cta {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .pricing-cta:hover {
+            background: #1d4ed8;
+        }
+
+        .pricing-note {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #888;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 80px 0;
+        }
+
+        .faq h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .faq-list {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .faq-question {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 0;
+            font-size: 17px;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1a1a1a;
+            font-family: inherit;
+        }
+
+        .faq-question::after {
+            content: "+";
+            font-size: 24px;
+            font-weight: 300;
+            color: #2563eb;
+            flex-shrink: 0;
+            margin-left: 16px;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question::after {
+            content: "\2212";
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer p {
+            padding: 0 0 20px;
+            color: #555;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        /* Social Proof */
+        .social-proof {
+            padding: 80px 0;
+            background: #f8fafc;
+        }
+
+        .social-proof h2 {
+            font-size: 36px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+
+        .metric-card {
+            text-align: center;
+            background: #fff;
+            padding: 40px 32px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .metric-value {
+            font-size: 36px;
+            font-weight: 800;
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 15px;
+            color: #555;
+        }
+
+        .testimonial-block {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .quote-mark {
+            font-size: 48px;
+            color: #2563eb;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-text {
+            font-size: 18px;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .testimonial-author {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+
+        .testimonial-company {
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* Nav Links */
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #1a1a1a;
+        }
+
         /* Footer */
         footer {
             padding: 40px 0;
@@ -224,7 +538,8 @@
 
         @media (max-width: 768px) {
             .hero h1 { font-size: 36px; }
-            .services-grid, .steps { grid-template-columns: 1fr; }
+            .services-grid, .steps, .problem-grid, .pricing-grid, .metrics-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
         }
     </style>
 </head>
@@ -233,6 +548,12 @@
     <nav>
         <div class="container">
             <a href="/" class="logo">Copy<span>DTC</span></a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+            </div>
             <a href="mailto:brad@copydtc.com" class="nav-cta">Get Started</a>
         </div>
     </nav>
@@ -246,7 +567,30 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="problem" id="problem">
+        <div class="container">
+            <div style="text-align: center;">
+                <span class="section-label">THE PROBLEM</span>
+                <h2>Most DTC Content Is Costing You Money</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <h3>Generic Copy Kills Conversions</h3>
+                    <p>Your emails sound like every other brand. Your landing pages say 'shop now' instead of giving people a reason to buy.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>Agencies Are Slow and Expensive</h3>
+                    <p>You're paying $150/hour for a copywriter who delivers in 2 weeks. By then the moment's gone.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>DIY AI Sounds Like a Robot</h3>
+                    <p>You tried ChatGPT. The output was fine. Fine doesn't sell.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
         <div class="container">
             <h2>Everything your brand needs to say</h2>
             <div class="services-grid">
@@ -278,7 +622,7 @@
         </div>
     </section>
 
-    <section class="how-it-works">
+    <section class="how-it-works" id="how-it-works">
         <div class="container">
             <h2>How it works</h2>
             <div class="steps">
@@ -301,6 +645,127 @@
         </div>
     </section>
 
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div style="text-align: center;">
+                <span class="section-label">PRICING</span>
+                <h2>Simple Pricing. Serious Results.</h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$3,000<span>/mo</span></div>
+                    <ul>
+                        <li>20 deliverables/month</li>
+                        <li>Brand Voice Bible</li>
+                        <li>Email sequences + product descriptions</li>
+                        <li>Monthly report</li>
+                        <li>48-hour turnaround</li>
+                    </ul>
+                    <a href="mailto:brad@copydtc.com" class="pricing-cta">Get Started</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Growth</h3>
+                    <div class="price">$5,000<span>/mo</span></div>
+                    <ul>
+                        <li>40 deliverables/month</li>
+                        <li>Everything in Starter</li>
+                        <li>Landing pages</li>
+                        <li>Blog posts + ad copy</li>
+                        <li>Social content</li>
+                        <li>Bi-weekly strategy calls</li>
+                    </ul>
+                    <a href="mailto:brad@copydtc.com" class="pricing-cta">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Scale</h3>
+                    <div class="price">$10,000<span>/mo</span></div>
+                    <ul>
+                        <li>Unlimited deliverables</li>
+                        <li>Everything in Growth</li>
+                        <li>Dedicated strategist</li>
+                        <li>24-hour priority turnaround</li>
+                        <li>Weekly calls</li>
+                        <li>Conversion optimization</li>
+                    </ul>
+                    <a href="mailto:brad@copydtc.com" class="pricing-cta">Get Started</a>
+                </div>
+            </div>
+            <p class="pricing-note">Start with a 30-day pilot. No long-term contracts.</p>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <div style="text-align: center;">
+                <span class="section-label">FAQ</span>
+                <h2>Questions You're Probably Asking</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">How is this different from hiring a freelancer?</button>
+                    <div class="faq-answer">
+                        <p>Speed, systems, and consistency. We build a content engine calibrated to your voice that produces at scale. Plus our AI systems mean your copy is backed by DTC conversion data.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is this just ChatGPT?</button>
+                    <div class="faq-answer">
+                        <p>No. We use advanced AI with custom prompt engineering and your Brand Voice Bible. The AI is the engine. Our DTC expertise and your brand identity are the steering wheel.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What's the turnaround time?</button>
+                    <div class="faq-answer">
+                        <p>Most deliverables in 48 hours. Scale tier gets 24-hour priority.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What if I don't like the content?</button>
+                    <div class="faq-answer">
+                        <p>Two revision rounds included. Your Brand Voice Bible means we're aligned from day one, so major mismatches are rare.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is there a long-term contract?</button>
+                    <div class="faq-answer">
+                        <p>No. 30-day pilot, then month-to-month. 15 days notice to cancel. We keep clients by delivering results, not locking them in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social-proof" id="results">
+        <div class="container">
+            <div style="text-align: center;">
+                <span class="section-label">RESULTS</span>
+                <h2>What Happens When Your Content Actually Works</h2>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">10x</div>
+                    <div class="metric-label">Faster Delivery</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">90%+</div>
+                    <div class="metric-label">Client Retention</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">7 Days</div>
+                    <div class="metric-label">To First Results</div>
+                </div>
+            </div>
+            <div class="testimonial-block">
+                <div class="quote-mark">&ldquo;</div>
+                <p class="testimonial-text">Case studies launching soon. Book a free audit and see the quality for yourself.</p>
+                <p class="testimonial-author">Your Name Here</p>
+                <p class="testimonial-company">Your Company</p>
+            </div>
+        </div>
+    </section>
+
     <section class="cta-section">
         <div class="container">
             <h2>Ready to sound like the brand you are?</h2>
@@ -314,6 +779,26 @@
             <p>&copy; 2026 CopyDTC. All rights reserved. | brad@copydtc.com</p>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(button) {
+            button.addEventListener('click', function() {
+                var item = this.parentElement;
+                var answer = item.querySelector('.faq-answer');
+                var isActive = item.classList.contains('active');
+
+                document.querySelectorAll('.faq-item').forEach(function(el) {
+                    el.classList.remove('active');
+                    el.querySelector('.faq-answer').style.maxHeight = null;
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
