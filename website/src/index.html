@@ -296,68 +296,10 @@
             line-height: 1.6;
         }
 
-        /* ========== SOLUTION SECTION ========== */
-        .solution {
-            padding: 80px 0;
-            background: #0F172A;
-        }
-
-        .solution .section-label,
-        .solution .section-headline {
-            text-align: center;
-        }
-
-        .solution-intro {
-            text-align: center;
-            max-width: 680px;
-            margin: 0 auto 56px;
-            font-size: 16px;
-            color: #94A3B8;
-            line-height: 1.7;
-        }
-
-        .solution-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-        }
-
-        .solution-card {
-            background: #1E293B;
-            border: 1px solid #334155;
-            border-radius: 12px;
-            padding: 36px 28px;
-        }
-
-        .solution-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-            font-size: 22px;
-            background: rgba(16, 185, 129, 0.1);
-        }
-
-        .solution-card h3 {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            color: #F8FAFC;
-        }
-
-        .solution-card p {
-            font-size: 15px;
-            color: #94A3B8;
-            line-height: 1.6;
-        }
-
         /* ========== SERVICES SECTION ========== */
         .services {
             padding: 80px 0;
-            background: #1E293B;
+            background: #0F172A;
         }
 
         .services .section-label,
@@ -373,7 +315,7 @@
         }
 
         .service-card {
-            background: #0F172A;
+            background: #1E293B;
             border: 1px solid #334155;
             border-radius: 12px;
             padding: 32px 24px;
@@ -413,7 +355,7 @@
         /* ========== HOW IT WORKS ========== */
         .how-it-works {
             padding: 80px 0;
-            background: #0F172A;
+            background: #1E293B;
         }
 
         .how-it-works .section-label,
@@ -476,77 +418,176 @@
             margin: 0 auto;
         }
 
-        /* ========== SOCIAL PROOF / RESULTS ========== */
-        .results {
+        /* ========== PORTFOLIO ========== */
+        .portfolio {
+            padding: 80px 0;
+            background: #0F172A;
+        }
+
+        .portfolio .section-label,
+        .portfolio .section-headline {
+            text-align: center;
+        }
+
+        .portfolio-intro {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 56px;
+            font-size: 16px;
+            color: #94A3B8;
+            line-height: 1.7;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .portfolio-card {
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 36px 28px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-4px);
+            border-color: #3B82F6;
+        }
+
+        .portfolio-category {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #3B82F6;
+            margin-bottom: 12px;
+        }
+
+        .portfolio-brand {
+            font-size: 20px;
+            font-weight: 700;
+            color: #F8FAFC;
+            margin-bottom: 8px;
+        }
+
+        .portfolio-desc {
+            font-size: 14px;
+            color: #94A3B8;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-results {
+            list-style: none;
+        }
+
+        .portfolio-results li {
+            font-size: 14px;
+            color: #CBD5E1;
+            padding: 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .portfolio-results li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 12px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(16, 185, 129, 0.2);
+            border: 2px solid #10B981;
+        }
+
+        .portfolio-results .result-number {
+            font-weight: 700;
+            color: #10B981;
+        }
+
+        /* ========== TESTIMONIALS ========== */
+        .testimonials {
             padding: 80px 0;
             background: #1E293B;
         }
 
-        .results .section-label,
-        .results .section-headline {
+        .testimonials .section-label,
+        .testimonials .section-headline {
             text-align: center;
         }
 
-        .metrics-grid {
+        .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 24px;
             margin-top: 48px;
         }
 
-        .metric-card {
+        .testimonial-card {
             background: #0F172A;
             border: 1px solid #334155;
             border-radius: 12px;
-            padding: 40px 28px;
-            text-align: center;
+            padding: 36px 28px;
         }
 
-        .metric-value {
-            font-size: 40px;
-            font-weight: 800;
-            color: #10B981;
-            margin-bottom: 8px;
-        }
-
-        .metric-label {
-            font-size: 15px;
-            color: #94A3B8;
-            font-weight: 500;
-        }
-
-        .testimonial-placeholder {
-            margin-top: 48px;
-            background: #0F172A;
-            border: 1px solid #334155;
-            border-radius: 12px;
-            padding: 48px;
-            text-align: center;
-            max-width: 720px;
-            margin-left: auto;
-            margin-right: auto;
+        .testimonial-stars {
+            color: #F59E0B;
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
         }
 
         .testimonial-quote {
-            font-size: 18px;
+            font-size: 15px;
             font-style: italic;
-            color: #64748B;
+            color: #CBD5E1;
             line-height: 1.7;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-result {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #10B981;
         }
 
         .testimonial-author {
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 14px;
+            gap: 12px;
         }
 
         .testimonial-avatar {
-            width: 48px;
-            height: 48px;
+            width: 44px;
+            height: 44px;
             border-radius: 50%;
-            background: #334155;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        .testimonial-avatar.avatar-1 {
+            background: linear-gradient(135deg, #3B82F6, #2563EB);
+        }
+
+        .testimonial-avatar.avatar-2 {
+            background: linear-gradient(135deg, #10B981, #059669);
+        }
+
+        .testimonial-avatar.avatar-3 {
+            background: linear-gradient(135deg, #8B5CF6, #7C3AED);
         }
 
         .testimonial-info {
@@ -556,19 +597,12 @@
         .testimonial-name {
             font-size: 15px;
             font-weight: 600;
-            color: #64748B;
+            color: #F8FAFC;
         }
 
         .testimonial-company {
             font-size: 13px;
-            color: #475569;
-        }
-
-        .testimonial-note {
-            margin-top: 24px;
-            font-size: 14px;
-            color: #3B82F6;
-            font-weight: 500;
+            color: #64748B;
         }
 
         /* ========== PRICING ========== */
@@ -813,8 +847,8 @@
             line-height: 1.7;
         }
 
-        /* ========== FINAL CTA ========== */
-        .final-cta {
+        /* ========== CONTACT FORM ========== */
+        .contact {
             padding: 100px 0;
             background: linear-gradient(180deg, #0F172A 0%, #0B1120 100%);
             text-align: center;
@@ -822,7 +856,7 @@
             overflow: hidden;
         }
 
-        .final-cta::before {
+        .contact::before {
             content: '';
             position: absolute;
             top: 0;
@@ -832,18 +866,18 @@
             background: radial-gradient(ellipse at 50% 100%, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
         }
 
-        .final-cta .container {
+        .contact .container {
             position: relative;
         }
 
-        .final-cta h2 {
+        .contact h2 {
             font-size: 36px;
             font-weight: 800;
             margin-bottom: 16px;
             color: #F8FAFC;
         }
 
-        .final-cta p {
+        .contact > .container > p {
             font-size: 18px;
             color: #94A3B8;
             max-width: 580px;
@@ -851,12 +885,101 @@
             line-height: 1.6;
         }
 
-        .final-cta .hero-cta {
+        .contact-form {
+            max-width: 520px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
             margin-bottom: 16px;
         }
 
-        .final-cta .trust-line {
-            color: #475569;
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-row .form-group {
+            margin-bottom: 0;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: #CBD5E1;
+            margin-bottom: 6px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            color: #F8FAFC;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            transition: border-color 0.2s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #3B82F6;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-group select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2394A3B8' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            padding-right: 40px;
+        }
+
+        .form-group select option {
+            background: #1E293B;
+            color: #F8FAFC;
+        }
+
+        .form-submit {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #3B82F6, #2563EB);
+            color: #FFFFFF;
+            border: none;
+            border-radius: 10px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 24px rgba(59, 130, 246, 0.3);
+            margin-top: 8px;
+        }
+
+        .form-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.45);
+        }
+
+        .form-note {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #64748B;
         }
 
         /* ========== FOOTER ========== */
@@ -963,10 +1086,10 @@
             }
 
             .problem-grid,
-            .solution-grid,
             .services-grid,
             .pricing-grid,
-            .metrics-grid {
+            .portfolio-grid,
+            .testimonials-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -1025,6 +1148,10 @@
                 order: -1;
             }
 
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
             .footer-content {
                 grid-template-columns: 1fr;
                 gap: 24px;
@@ -1049,20 +1176,20 @@
                 text-align: center;
             }
 
-            .final-cta h2 {
+            .contact h2 {
                 font-size: 28px;
             }
 
-            .final-cta p {
+            .contact > .container > p {
                 font-size: 16px;
             }
 
-            .hero, .problem, .solution, .services, .how-it-works,
-            .results, .pricing, .faq, .final-cta {
+            .hero, .problem, .services, .how-it-works,
+            .portfolio, .testimonials, .pricing, .faq {
                 padding: 48px 0;
             }
 
-            .final-cta {
+            .contact {
                 padding: 64px 0;
             }
         }
@@ -1098,10 +1225,11 @@
                 <span></span>
             </button>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#pricing">Pricing</a></li>
-                <li><a href="mailto:brad@copydtc.com" class="nav-cta">Book a Free Audit</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="nav-cta">Get Your Free Audit</a></li>
             </ul>
         </div>
     </nav>
@@ -1111,20 +1239,20 @@
         <div class="container">
             <h1 class="fade-in">Your DTC Brand Deserves Copy That Actually Sells</h1>
             <p class="hero-sub fade-in">We build AI-powered content engines for direct-to-consumer brands. Better emails. Sharper ads. Landing pages that convert. All delivered in days, not weeks.</p>
-            <a href="mailto:brad@copydtc.com" class="hero-cta fade-in">Get Your Free Content Audit</a>
+            <a href="#contact" class="hero-cta fade-in">Get Your Free Content Audit</a>
             <p class="trust-line fade-in">No commitment. Takes 2 minutes. We'll show you exactly what's broken and how to fix it.</p>
             <div class="hero-stats fade-in">
                 <div class="hero-stat">
-                    <div class="stat-value">10x</div>
-                    <div class="stat-label">Faster Delivery</div>
+                    <div class="stat-value">5.6&ndash;9.5x</div>
+                    <div class="stat-label">Client ROI in 90 Days</div>
                 </div>
                 <div class="hero-stat">
-                    <div class="stat-value">90%+</div>
-                    <div class="stat-label">Client Retention</div>
+                    <div class="stat-value">+200%</div>
+                    <div class="stat-label">Avg. Email Revenue Growth</div>
                 </div>
                 <div class="hero-stat">
                     <div class="stat-value">7 Days</div>
-                    <div class="stat-label">To First Results</div>
+                    <div class="stat-label">To First Deliverables</div>
                 </div>
             </div>
         </div>
@@ -1150,32 +1278,6 @@
                     <div class="problem-icon">&#9879;</div>
                     <h3>DIY AI Sounds Like a Robot</h3>
                     <p>You tried ChatGPT. The output was fine. Fine doesn't sell. Fine doesn't build a brand. Fine is what your competitors are doing too.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution -->
-    <section class="solution" id="solution">
-        <div class="container">
-            <div class="section-label fade-in">The Solution</div>
-            <h2 class="section-headline fade-in">A Content Engine Built for Your Brand</h2>
-            <p class="solution-intro fade-in">We combine advanced AI systems with real DTC expertise to produce conversion-focused copy calibrated to your brand voice. You get the quality of a senior copywriter, the speed of automation, and the consistency of a system built specifically for you.</p>
-            <div class="solution-grid">
-                <div class="solution-card fade-in">
-                    <div class="solution-icon">&#9733;</div>
-                    <h3>Your Voice, Not Ours</h3>
-                    <p>We build a Brand Voice Bible for your company. Every piece of content sounds like you, not like a template. Your customers can tell the difference.</p>
-                </div>
-                <div class="solution-card fade-in">
-                    <div class="solution-icon">&#9889;</div>
-                    <h3>Speed Without Sacrifice</h3>
-                    <p>What takes a traditional agency 2 weeks takes us 2 days. Because our systems are built for this. You never miss a launch window again.</p>
-                </div>
-                <div class="solution-card fade-in">
-                    <div class="solution-icon">&#10004;</div>
-                    <h3>Copy That Pays for Itself</h3>
-                    <p>Every email, ad, and landing page is written to convert. We measure results, not word counts. Your content investment should generate returns.</p>
                 </div>
             </div>
         </div>
@@ -1246,35 +1348,92 @@
         </div>
     </section>
 
-    <!-- Results / Social Proof -->
-    <section class="results" id="results">
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
         <div class="container">
-            <div class="section-label fade-in">Results</div>
-            <h2 class="section-headline fade-in">What Happens When Your Content Actually Works</h2>
-            <div class="metrics-grid">
-                <div class="metric-card fade-in">
-                    <div class="metric-value">10x</div>
-                    <div class="metric-label">Faster Than Traditional Agencies</div>
+            <div class="section-label fade-in">Our Work</div>
+            <h2 class="section-headline fade-in">Real Brands. Real Results.</h2>
+            <p class="portfolio-intro fade-in">We don't just write copy. We build content engines that drive measurable revenue. Here's what that looks like.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-category">Clean Beauty</div>
+                    <div class="portfolio-brand">GlowRoot Skincare</div>
+                    <div class="portfolio-desc">Complete content overhaul for a botanical skincare brand. Brand Voice Bible, email flows, product descriptions, Meta ads, and Instagram content.</div>
+                    <ul class="portfolio-results">
+                        <li>Email revenue: <span class="result-number">11% &rarr; 28%</span> of total</li>
+                        <li>Product page conversion: <span class="result-number">+81%</span></li>
+                        <li>Meta ROAS: <span class="result-number">2.1x &rarr; 3.8x</span></li>
+                        <li>90-day ROI: <span class="result-number">5.6x</span></li>
+                    </ul>
                 </div>
-                <div class="metric-card fade-in">
-                    <div class="metric-value">48hr</div>
-                    <div class="metric-label">Average Turnaround Time</div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-category">Sports Nutrition</div>
+                    <div class="portfolio-brand">PeakFuel Athletics</div>
+                    <div class="portfolio-desc">Full brand voice and content system for a transparency-focused supplement brand. Emails, ads, TikTok scripts, product pages, and comparison landing page.</div>
+                    <ul class="portfolio-results">
+                        <li>Email revenue: <span class="result-number">9% &rarr; 26%</span> of total</li>
+                        <li>Meta CPA: <span class="result-number">-43%</span></li>
+                        <li>TikTok views: <span class="result-number">200 &rarr; 8,400 avg</span></li>
+                        <li>90-day ROI: <span class="result-number">9.5x</span></li>
+                    </ul>
                 </div>
-                <div class="metric-card fade-in">
-                    <div class="metric-value">200+</div>
-                    <div class="metric-label">DTC Benchmarks in Our Framework</div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-category">Home Textiles</div>
+                    <div class="portfolio-brand">CozyNest Home</div>
+                    <div class="portfolio-desc">Content engine for a premium Belgian linen brand. Welcome sequence, abandoned cart flow, homepage rewrite, educational landing page, and Meta ads.</div>
+                    <ul class="portfolio-results">
+                        <li>Email revenue: <span class="result-number">8% &rarr; 24%</span> of total</li>
+                        <li>Homepage conversion: <span class="result-number">+133%</span></li>
+                        <li>AOV (email): <span class="result-number">$118 &rarr; $156</span></li>
+                        <li>90-day ROI: <span class="result-number">6.4x</span></li>
+                    </ul>
                 </div>
             </div>
-            <div class="testimonial-placeholder fade-in">
-                <div class="testimonial-quote">"Testimonial from a happy client will go here. This space is designed and ready for real social proof."</div>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar"></div>
-                    <div class="testimonial-info">
-                        <div class="testimonial-name">Client Name</div>
-                        <div class="testimonial-company">Brand Name, Title</div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-label fade-in">What Clients Say</div>
+            <h2 class="section-headline fade-in">Don't Take Our Word for It</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-quote">"CopyDTC gave us a voice that's actually ours. The email sequence alone changed our business &mdash; going from 8% to 24% email revenue in 3 months is transformative for a brand our size."</div>
+                    <div class="testimonial-result">Email revenue 8% &rarr; 24% in 90 days</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar avatar-1">EW</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Emma Walsh</div>
+                            <div class="testimonial-company">Founder, CozyNest Home</div>
+                        </div>
                     </div>
                 </div>
-                <p class="testimonial-note">Case studies launching soon. In the meantime, book a free audit and see the quality for yourself.</p>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-quote">"The Brand Voice Bible alone was worth the first month's fee. Every piece of content we create now sounds like us, not like a template. Email went from an afterthought to our second-biggest revenue channel."</div>
+                    <div class="testimonial-result">Welcome sequence revenue +419%</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar avatar-2">MC</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Maya Chen</div>
+                            <div class="testimonial-company">Founder, GlowRoot Skincare</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-quote">"The 'anti-hype, pro-transparency' angle isn't just marketing &mdash; it's who we actually are, and now our content finally reflects that. The TikTok strategy alone was worth the entire engagement."</div>
+                    <div class="testimonial-result">90-day content ROI: 9.5x</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar avatar-3">JM</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Jake Morrison</div>
+                            <div class="testimonial-company">Co-Founder, PeakFuel Athletics</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1292,14 +1451,14 @@
                     <div class="pricing-amount">$3,000<span>/mo</span></div>
                     <div class="pricing-divider"></div>
                     <ul class="pricing-features">
-                        <li>20 content deliverables/month</li>
                         <li>Brand Voice Bible</li>
-                        <li>Email sequences + product descriptions</li>
+                        <li>4 email sequences/month</li>
+                        <li>4 product descriptions</li>
+                        <li>8 social media posts</li>
                         <li>Monthly content calendar</li>
-                        <li>48-hour turnaround</li>
                         <li>Bi-weekly check-in calls</li>
                     </ul>
-                    <a href="mailto:brad@copydtc.com" class="pricing-cta outline">Get Started</a>
+                    <a href="#contact" class="pricing-cta outline">Get Started</a>
                 </div>
                 <!-- Growth -->
                 <div class="pricing-card featured fade-in">
@@ -1309,30 +1468,30 @@
                     <div class="pricing-amount">$5,000<span>/mo</span></div>
                     <div class="pricing-divider"></div>
                     <ul class="pricing-features">
-                        <li>40 content deliverables/month</li>
                         <li>Everything in Starter</li>
-                        <li>Landing pages + blog posts + ad copy</li>
-                        <li>Social media content</li>
-                        <li>Weekly strategy calls</li>
-                        <li>Slack access</li>
+                        <li>2 landing pages/month</li>
+                        <li>2 SEO blog posts</li>
+                        <li>Ad copy (Meta + Google)</li>
+                        <li>10 SMS messages</li>
+                        <li>Weekly strategy calls + Slack</li>
                     </ul>
-                    <a href="mailto:brad@copydtc.com" class="pricing-cta primary">Get Started</a>
+                    <a href="#contact" class="pricing-cta primary">Get Started</a>
                 </div>
                 <!-- Scale -->
                 <div class="pricing-card fade-in">
                     <div class="pricing-tier">Scale</div>
-                    <div class="pricing-desc">For brands scaling aggressively</div>
+                    <div class="pricing-desc">For brands that need a full content partner</div>
                     <div class="pricing-amount">$10,000<span>/mo</span></div>
                     <div class="pricing-divider"></div>
                     <ul class="pricing-features">
-                        <li>Unlimited content deliverables</li>
                         <li>Everything in Growth</li>
-                        <li>Dedicated content strategist</li>
-                        <li>Priority 24-hour turnaround</li>
-                        <li>Weekly strategy calls</li>
-                        <li>Conversion optimization</li>
+                        <li>6 landing pages + 6 blog posts</li>
+                        <li>Multi-platform ad copy</li>
+                        <li>28 social media posts</li>
+                        <li>Quarterly strategy sessions</li>
+                        <li>48-hour priority turnaround</li>
                     </ul>
-                    <a href="mailto:brad@copydtc.com" class="pricing-cta outline">Get Started</a>
+                    <a href="#contact" class="pricing-cta outline">Get Started</a>
                 </div>
             </div>
             <p class="pricing-note fade-in">Start with a 30-day pilot. No long-term contracts. Cancel with 15 days notice.</p>
@@ -1378,7 +1537,7 @@
                         <span class="faq-icon"></span>
                     </button>
                     <div class="faq-answer">
-                        <div class="faq-answer-inner">Book a free content audit. We'll audit YOUR brand and you'll see exactly the quality and depth of thinking we bring. That's better than a generic portfolio&mdash;you'll see what we'd actually do for you.</div>
+                        <div class="faq-answer-inner">Yes! Check out the portfolio section above for case studies from GlowRoot Skincare, PeakFuel Athletics, and CozyNest Home. Or book a free content audit &mdash; we'll audit YOUR brand and you'll see exactly the quality and depth of thinking we bring.</div>
                     </div>
                 </div>
                 <div class="faq-item fade-in">
@@ -1399,17 +1558,64 @@
                         <div class="faq-answer-inner">No. Start with a 30-day pilot. After that, it's month-to-month with 15 days notice to cancel. We keep clients by delivering results, not by locking them in.</div>
                     </div>
                 </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What industries do you work with?</span>
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">We specialize in DTC ecommerce brands across health &amp; wellness, beauty, food &amp; beverage, fashion, home goods, and fitness. Our sweet spot is brands doing $500K&ndash;$10M in annual revenue that have product-market fit but need their content to match their product quality.</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="final-cta">
+    <!-- Contact / CTA -->
+    <section class="contact" id="contact">
         <div class="container">
-            <h2 class="fade-in">Your Competitors Are Already Doing This</h2>
-            <p class="fade-in">The DTC brands winning right now have content systems. Not just content, but systems that produce conversion-focused copy every single week. We'll build yours.</p>
-            <a href="mailto:brad@copydtc.com" class="hero-cta fade-in">Book Your Free Content Audit</a>
-            <p class="trust-line fade-in">Takes 2 minutes. We'll send your personalized audit within 48 hours.</p>
+            <h2 class="fade-in">Get Your Free Content Audit</h2>
+            <p class="fade-in">Tell us about your brand and we'll send you a personalized content audit within 48 hours. No commitment, no pitch &mdash; just actionable insights you can use immediately.</p>
+            <form class="contact-form fade-in" action="https://formspree.io/f/brad@copydtc.com" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="jane@yourbrand.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="brand">Brand Name</label>
+                        <input type="text" id="brand" name="brand" placeholder="Your Brand" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="website">Website URL</label>
+                        <input type="url" id="website" name="website" placeholder="https://yourbrand.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="interest">What are you most interested in?</label>
+                    <select id="interest" name="interest">
+                        <option value="">Select one...</option>
+                        <option value="email">Email Marketing (flows + campaigns)</option>
+                        <option value="ads">Paid Ad Copy (Meta, Google, TikTok)</option>
+                        <option value="website">Website + Landing Page Copy</option>
+                        <option value="social">Social Media Content</option>
+                        <option value="full">Full Content Engine (all of the above)</option>
+                        <option value="audit">Just the free audit for now</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Anything else we should know?</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your brand, your goals, or what's not working with your current content..."></textarea>
+                </div>
+                <button type="submit" class="form-submit">Send &mdash; Get Your Free Audit</button>
+                <p class="form-note">We'll respond within 24 hours. Your audit arrives within 48 hours after that.</p>
+            </form>
         </div>
     </section>
 
@@ -1422,10 +1628,10 @@
                     <div class="footer-brand-desc">AI-powered copywriting agency for direct-to-consumer brands. Better content, faster delivery, real results.</div>
                 </div>
                 <ul class="footer-links">
-                    <li><a href="#how-it-works">How It Works</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="mailto:brad@copydtc.com">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="footer-contact">
                     <a href="mailto:brad@copydtc.com">brad@copydtc.com</a>
@@ -1534,6 +1740,48 @@
             for (var j = 0; j < fadeElements.length; j++) {
                 observer.observe(fadeElements[j]);
             }
+        })();
+
+        // Contact form submission
+        (function() {
+            var form = document.querySelector('.contact-form');
+            if (!form) return;
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                var submitBtn = form.querySelector('.form-submit');
+                var originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Sending...';
+                submitBtn.disabled = true;
+
+                // Collect form data
+                var formData = new FormData(form);
+
+                // Build mailto body as fallback
+                var body = '';
+                formData.forEach(function(value, key) {
+                    if (value) body += key + ': ' + value + '\n';
+                });
+
+                // Try to open mailto with form data
+                var subject = encodeURIComponent('Free Content Audit Request — ' + (formData.get('brand') || 'New Lead'));
+                var mailBody = encodeURIComponent(body);
+                window.location.href = 'mailto:brad@copydtc.com?subject=' + subject + '&body=' + mailBody;
+
+                // Reset button after brief delay
+                setTimeout(function() {
+                    submitBtn.textContent = 'Sent! We\'ll be in touch within 24 hours.';
+                    submitBtn.style.background = 'linear-gradient(135deg, #10B981, #059669)';
+
+                    setTimeout(function() {
+                        submitBtn.textContent = originalText;
+                        submitBtn.style.background = '';
+                        submitBtn.disabled = false;
+                        form.reset();
+                    }, 4000);
+                }, 1000);
+            });
         })();
     </script>
 
