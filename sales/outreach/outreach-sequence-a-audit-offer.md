@@ -1,262 +1,236 @@
 # Outreach Sequence A: Free Audit Offer
 
-> **Purpose:** 4-email cold outreach sequence leading with a free content audit. Demonstrates expertise, builds trust, bridges to paid engagement.
-> **Sender:** Brad Bieselin (brad@copydtc.com)
-> **Target:** DTC brands doing $1M–$10M revenue with existing email/content programs that have clear room for improvement
-> **Cadence:** Day 1 → Day 4 → Day 8 → Day 14
+**Sender:** Brad Bieselin · brad@copydtc.com
+**Cadence:** Email 1 (Day 1) → Email 2 (Day 4) → Email 3 (Day 8) → Breakup (Day 14)
+**Target:** DTC ecommerce brands, $1M–$10M revenue, with live content that has obvious room for improvement
 
 ---
 
-## Email 1 — The Opener (Day 1)
+## EMAIL 1 — VERSION A: Welcome Flow Angle
 
-**Goal:** Get a reply by making a specific, personalized observation about their brand and offering a free audit.
+**Subject lines:**
+- `{{FirstName}}, your welcome flow is leaving money on the table`
+- `quick question about {{BrandName}}'s emails`
+- `{{BrandName}}'s welcome sequence`
 
-### Subject Lines (pick one)
+**Body:**
 
-1. `{{FirstName}}, quick note about your {{channel}}`
-2. `noticed something on {{BrandName}}'s site`
-3. `{{BrandName}} + a free content audit`
+Hey {{FirstName}},
 
-### Body
+I signed up for {{BrandName}}'s email list last week and went through your welcome flow. You've got a solid brand and great products — but the emails aren't doing them justice.
 
-> Hey {{FirstName}},
->
-> I was looking through {{BrandName}}'s {{specific content — e.g., "welcome email sequence" / "product pages" / "Meta ads"}} and noticed something that's probably costing you conversions.
->
-> {{Insert one specific, concrete observation. Example: "Your welcome flow has 3 emails, but none of them mention your best-selling SKU or include a clear discount CTA — that's usually worth 15-20% more revenue from that flow alone."}}
->
-> I run CopyDTC — we write emails, landing pages, and ads for DTC brands using AI-powered workflows that sound like your brand, not a robot.
->
-> I'd love to put together a quick audit of your {{channel}} — completely free, no strings. Usually takes me about 30 minutes and brands tell me it's the most useful thing a stranger has ever sent them.
->
-> Worth a look?
->
-> Brad
+Your welcome sequence is 3 emails long and none of them mention your best-selling products by name. The first email thanks me for subscribing but doesn't give me a reason to buy. No first-purchase offer, no social proof, no link to a specific product. Most of the revenue in a welcome flow comes from emails 1 and 2, and right now yours are just introducing the brand without converting.
 
-### CTA
+I run CopyDTC. We write emails, landing pages, and ads for DTC brands — everything written in your brand voice, not generic copy. I'd love to put together a free audit of {{BrandName}}'s email program. No strings, no pitch deck. Just a 3–5 page teardown with specific fixes you can use.
 
-Reply "sure" and I'll send over the audit within 48 hours.
+Want me to send it over?
 
-### Personalization Points
-
-- **{{channel}}:** Pick whichever channel has the most obvious issues — email flows, product pages, ad copy, or homepage
-- **{{specific content}}:** Name the exact asset you reviewed (e.g., "your abandoned cart sequence," "your homepage hero section," "your Meta carousel ads")
-- **{{concrete observation}}:** Must be real and specific. Generic = ignored. Pull one genuine insight from their actual content.
-
-### Internal Notes
-
-- This email lives or dies on the personalization. Spend 5–10 minutes on their site/emails/ads before writing.
-- The observation should make them think "this person actually looked at my stuff."
-- Keep the CTA frictionless — a one-word reply, not a calendar link.
+Brad
 
 ---
 
-## Email 2 — The Value Drop (Day 4)
+## EMAIL 1 — VERSION B: Product Page Angle
 
-**Goal:** Prove expertise by giving away one specific, actionable insight they can use immediately — whether or not they reply.
+**Subject lines:**
+- `{{FirstName}}, one thing about {{BrandName}}'s product pages`
+- `noticed something on {{BrandName}}'s site`
+- `{{BrandName}}'s product copy`
 
-### Subject Lines (pick one)
+**Body:**
 
-1. `one thing I'd change on {{BrandName}}'s {{asset}}`
-2. `re: {{BrandName}} content`
-3. `free tip for {{BrandName}} (no catch)`
+Hey {{FirstName}},
 
-### Body
+I was browsing {{BrandName}}'s site and spent some time on your product pages. The photography is great and the branding is clean — but the copy is underselling what you've built.
 
-> Hey {{FirstName}},
->
-> Sent you a note a few days ago — wanted to follow up with something concrete instead of just another "checking in" email.
->
-> I spent a few minutes on {{BrandName}}'s {{specific asset}} and here's one change I'd make today:
->
-> **{{Specific tactical recommendation}}**
->
-> {{Example: "Your product page for [Product Name] leads with features. I'd flip it — lead with the problem your customer has, then introduce the product as the fix. We've seen this simple rewrite lift add-to-cart rates 10-25% for similar brands."}}
->
-> That's yours to keep whether we ever work together or not.
->
-> My original offer still stands — I'll put together a full audit of your {{channel}} for free. Just say the word.
->
-> Brad
+Your product descriptions lead with ingredients and specs. That works for someone who already knows they want to buy, but it loses everyone else. There's no mention of the problem your product solves, no customer language, and the CTAs are just "Add to Cart" with no urgency or supporting proof underneath. I see this a lot with DTC brands in your space and it's usually a 15–25% add-to-cart lift waiting to happen once the copy gets flipped to problem-first.
 
-### CTA
+I run CopyDTC — we write product pages, emails, and ads for DTC brands. I'd love to do a free content audit of {{BrandName}}'s site. It's a 3–5 page teardown with specific rewrites and fixes. No cost, no obligation.
 
-Reply and I'll send the full audit this week.
+Worth 15 minutes of your time to review?
 
-### Personalization Points
-
-- **{{specific asset}}:** The exact page, email, or ad you reviewed (be specific — "your Hydrating Serum product page," not "your product pages")
-- **{{Specific tactical recommendation}}:** One concrete change with a clear expected outcome. Use a framework they can act on immediately.
-
-### Internal Notes
-
-- This email is pure generosity. You're giving real value with zero ask.
-- The recommendation must be specific enough that they could implement it in 15 minutes.
-- Don't pitch CopyDTC's services here. The expertise speaks for itself.
-- If they didn't open Email 1, use subject line #2 or #3 (no "re:").
+Brad
 
 ---
 
-## Email 3 — The Proof (Day 8)
+## EMAIL 1 — VERSION C: Ad Copy Angle
 
-**Goal:** Add social proof with a brief case study from a similar brand. Make the results feel attainable for them.
+**Subject lines:**
+- `{{FirstName}}, saw {{BrandName}}'s Meta ads`
+- `your ad creative is strong but the copy isn't keeping up`
+- `{{BrandName}}'s ads — quick thought`
 
-### Subject Lines (pick one)
+**Body:**
 
-1. `how a {{similar niche}} brand added ${{X}}K/mo from email`
-2. `{{BrandName}} reminded me of another client`
-3. `what happened when we rewrote {{similar brand type}}'s emails`
+Hey {{FirstName}},
 
-### Body
+I pulled up {{BrandName}}'s ads in the Meta Ad Library and your creative team clearly knows what they're doing. Strong visuals, good production quality. But the ad copy isn't pulling its weight.
 
-> Hey {{FirstName}},
->
-> Quick story I thought you'd find interesting.
->
-> We worked with a {{similar niche}} brand doing about {{revenue range}} in revenue. Their email flows were driving maybe 15% of total revenue — industry average stuff.
->
-> We rewrote their welcome sequence, abandoned cart flow, and post-purchase emails. Within 60 days:
->
-> - Email revenue jumped from 15% to {{result}}% of total revenue
-> - Welcome flow revenue went up {{X}}%
-> - They added ${{dollar amount}}K/month without spending more on ads
->
-> Their starting point looked a lot like where {{BrandName}} is right now.
->
-> I still have that free audit ready to go for you whenever you want it. 15 minutes of your time to review, and you'll walk away with 3–5 things you can fix this week.
->
-> Want me to send it over?
->
-> Brad
+Most of your ads open with the product name or a generic hook like "Meet your new favorite [product]." The first line of ad copy is the most expensive real estate in your marketing — it determines whether someone stops scrolling or keeps going. Right now your hooks aren't calling out a specific pain point or making a claim that earns the click. The CTAs are all "Shop Now" with no reason to shop now rather than later.
 
-### CTA
+I run CopyDTC — we write ad copy, emails, and landing pages for DTC brands. I'd love to put together a free content audit covering {{BrandName}}'s ads and the pages they link to. It's a 3–5 page teardown with specific fixes. No charge, no catch.
 
-Reply "send it" and I'll have the audit in your inbox within 48 hours.
+Interested?
 
-### Personalization Points
-
-- **{{similar niche}}:** Match to the prospect's industry (skincare, supplements, fashion, food, etc.)
-- **{{revenue range}}:** Use a range close to the prospect's estimated revenue
-- **{{result}} / {{X}} / {{dollar amount}}:** Pull from actual CopyDTC case study results. If you don't have an exact match for their niche, use your closest one and note the niche honestly.
-
-### Internal Notes
-
-- If you don't have a case study for their exact niche, say "a DTC brand in a similarly competitive space" — don't fabricate specifics.
-- The numbers must be real. Prospects will ask for details if they reply.
-- Keep the case study to 3-4 lines max. This is a teaser, not a white paper.
-- The "looked a lot like where {{BrandName}} is right now" line creates urgency without being pushy.
+Brad
 
 ---
 
-## Email 4 — The Breakup (Day 14)
+## EMAIL 2 — VERSION A: Product Page Fix (Day 4)
 
-**Goal:** Friendly close. Remove all pressure. Leave the door open and give them a reason to come back later.
+**Subject lines:**
+- `one change I'd make to {{BrandName}}'s site today`
+- `re: {{BrandName}}`
+- `free rewrite for {{BrandName}} (no catch)`
 
-### Subject Lines (pick one)
+**Body:**
 
-1. `closing the loop, {{FirstName}}`
-2. `last note from me`
-3. `not a fit right now? totally fine`
+Hey {{FirstName}},
 
-### Body
+I sent you a note a few days ago. Instead of a generic follow-up, I wanted to give you something you can actually use.
 
-> Hey {{FirstName}},
->
-> I've sent a few notes and don't want to be that person who won't take a hint — so this is my last email.
->
-> Quick recap of what's on the table:
->
-> **A free content audit of {{BrandName}}'s {{channel}}** — a 3–5 page teardown with specific fixes you can use whether or not we ever work together.
->
-> If the timing's off, no hard feelings at all. I know how packed things get when you're running a brand.
->
-> And if down the road you want a second pair of eyes on your copy, I'm at brad@copydtc.com. That offer doesn't expire.
->
-> Rooting for {{BrandName}} either way.
->
-> Brad
+I looked at {{BrandName}}'s top product page and here's what I'd change today: flip the structure so the first thing a visitor reads is the problem your product solves, not the product name and feature list. Open with one sentence about the frustration your customer feels, then introduce your product as the answer, then stack 2–3 pieces of proof underneath — a review quote, a stat, a before/after. Keep the current feature details but push them below the fold.
 
-### CTA
+This takes about 20 minutes to implement and we've seen it lift add-to-cart rates 15–25% for brands in your space. That's yours to use whether we ever talk or not.
 
-Reply anytime — the audit offer stands.
+My offer from last email still stands — I'll put together a full content audit of {{BrandName}} for free. Just say the word.
 
-### Personalization Points
-
-- **{{channel}}:** Same channel you've referenced throughout the sequence
-- Keep this one light. No new information, no new pitch. Just warmth and an open door.
-
-### Internal Notes
-
-- The breakup email often gets the highest response rate. The removal of pressure is what finally gets them to reply.
-- "Rooting for {{BrandName}} either way" is intentional — it's genuine and differentiates you from every other cold emailer.
-- If they reply to this one, wait 2-3 hours before responding. Don't seem like you were hovering.
-- Add them to a 90-day re-engagement reminder. Circle back in 3 months with a new insight or case study.
+Brad
 
 ---
 
-## Personalization Guide
+## EMAIL 2 — VERSION B: Email Subject Line Fix (Day 4)
 
-### Where to Find Audit-Worthy Content
+**Subject lines:**
+- `why {{BrandName}}'s emails aren't getting opened`
+- `re: {{BrandName}}'s email program`
+- `your open rates, {{FirstName}}`
 
-| Source | What to Look For |
-|---|---|
-| **Their website** | Homepage hero copy, product descriptions, about page, pop-up offers |
-| **Email sign-up** | Subscribe to their list. Review welcome sequence, promotional emails, abandoned cart (add item to cart, leave) |
-| **Facebook Ad Library** | Search their brand name at facebook.com/ads/library — review active ad copy, hooks, and CTAs |
-| **Instagram / TikTok** | Bio copy, caption style, Reels/TikTok hooks and scripts |
-| **Google** | Search "{{brand name}} + review" — see how customers talk vs. how the brand talks |
+**Body:**
 
-### Common Weaknesses to Call Out
+Hey {{FirstName}},
 
-- **Welcome emails** that don't mention best-sellers or include a clear first-purchase incentive
-- **Product pages** that lead with features instead of customer problems
-- **Abandoned cart flows** that are just "you forgot something!" with no urgency or social proof
-- **Homepage hero copy** that says what the brand does but not why the customer should care
-- **Ad copy** that's generic ("Shop now!" "Limited time!") with no hook or differentiation
-- **Post-purchase emails** that don't cross-sell, ask for reviews, or build the relationship
-- **Subject lines** that are bland, all-lowercase-aesthetic with no curiosity or benefit
+Following up on my note from earlier this week. I wanted to share something specific instead of just checking in.
 
-### How to Reference Specific Products or Campaigns
+I subscribed to {{BrandName}}'s list and looked at the last 10 emails you sent. The content inside is solid, but your subject lines are working against you. Most of them are lowercase one-liners that describe the email contents — things like "new arrivals" or "our latest drop." Those blend in with every other brand in your subscriber's inbox. There's no curiosity, no benefit, no reason to open this email instead of the other 40 sitting there.
 
-- Name the actual product: "Your Hydrating Serum product page" — not "your product pages"
-- Reference their current promotion: "I saw you're running a 20% off spring sale..."
-- Mention a specific ad: "Your Meta ad with the before/after — the hook is strong but the CTA is buried"
-- Call out a specific email: "Your welcome email #2 talks about your story but doesn't link to a single product"
+Here's a simple fix: write every subject line as either a question, a specific benefit, or an incomplete thought. "The ingredient most serums leave out" beats "our new serum" every time. This alone can move open rates 5–10 points without changing anything else about your emails.
+
+That's free whether we ever work together or not. And if you want the full audit I mentioned — 3–5 pages of fixes like this across your whole content program — just reply and I'll send it over this week.
+
+Brad
 
 ---
 
-## When to Use This Sequence
+## EMAIL 3 — Social Proof (Day 8)
 
-**Best for:**
-- Brands doing $1M–$10M revenue with existing email/content programs
-- Brands that have content live (so you have something to audit)
-- Brands where you can find a genuine, specific weakness in under 10 minutes
+**Subject lines:**
+- `how a brand like {{BrandName}} added $47K/mo from email`
+- `{{BrandName}} reminded me of a recent project`
+- `what happened when we rewrote a {{niche}} brand's emails`
 
-**Lead sources:**
-- Shopify store directories and rankings
-- Facebook Ad Library (brands actively spending on ads)
-- Instagram hashtag exploration (#dtcbrand, #shopifystore, #ecommerce)
-- Product Hunt, IndieHackers
-- Industry newsletters and "brands to watch" lists
+**Body:**
 
-**Don't use when:**
-- The brand's content is actually great (use Sequence C: Results-Led instead)
-- You can't find any live content to audit (use Sequence B: Competitor Gap instead)
-- The brand is pre-revenue or under $500K (not the right ICP)
+Hey {{FirstName}},
+
+Last email from me before I stop bugging you — but I wanted to share a quick story first.
+
+We worked with a DTC {{niche}} brand doing about $2M a year. Good product, loyal customers, decent traffic. But their email program was an afterthought. Their welcome flow was 2 generic emails. Their abandoned cart sequence was a single "you left something behind" message. Post-purchase emails didn't exist. Email was driving about 12% of total revenue, which is below average for DTC.
+
+We rewrote everything — welcome sequence, abandoned cart, post-purchase, and winback flows. We also built out a weekly send calendar with promotional emails that actually sounded like their brand. Within 60 days, email revenue went from 12% to 28% of total — an extra $47K per month without spending another dollar on ads.
+
+Their starting point looked a lot like where {{BrandName}} is right now. Not broken, just underleveraged.
+
+The free audit offer is still on the table. It's a 3–5 page teardown of {{BrandName}}'s content with specific, prioritized fixes. Takes you 15 minutes to review and you'll walk away with at least 3 things you can implement this week.
+
+Want it?
+
+Brad
 
 ---
 
-## Success Metrics
+## EMAIL 4 — Breakup (Day 14)
 
-| Metric | Target |
-|---|---|
-| Open rate | 45%+ |
-| Reply rate | 8–12% |
-| Audit-to-proposal rate | 50%+ |
-| Avg. time to first reply | Emails 2–3 (Days 4–8) |
+**Subject lines:**
+- `closing the loop, {{FirstName}}`
+- `last note from me`
+- `not the right time? no worries`
 
-**Tracking notes:**
-- Log every send, open, and reply in the prospect tracker
-- If open rates drop below 35%, test new subject lines
-- If reply rates drop below 5%, the personalization isn't specific enough — revisit your observations
-- The breakup email (Email 4) often outperforms Email 3 on reply rate — that's normal
+**Body:**
+
+Hey {{FirstName}},
+
+I've sent a few emails and I don't want to be the person who won't take a hint. This is my last one.
+
+Here's what's on the table if you ever want it: a free content audit of {{BrandName}} — a 3–5 page teardown covering your emails, product pages, and ads with specific fixes and rewrites. No cost, no pitch attached. I put these together because they're the fastest way for me to show you what I do, and brands consistently tell me it's the most useful thing a stranger has ever sent them.
+
+If the timing is off or this isn't a priority right now, I completely get it. Running a brand is relentless and content isn't always the fire that needs putting out today.
+
+Whenever you're ready — whether that's next week or six months from now — I'm at brad@copydtc.com.
+
+Rooting for {{BrandName}} either way.
+
+Brad
+
+---
+
+## PRE-SEND CHECKLIST
+
+Run through every item before sending each email. If you can't check every box, don't send.
+
+**Personalization**
+- [ ] You visited their actual website and browsed at least 3 product pages
+- [ ] You signed up for their email list (or pulled up their welcome flow via a test purchase)
+- [ ] You searched their brand in the Meta Ad Library and reviewed active ads
+- [ ] Every claim you make about their content is true and verifiable — you saw it yourself
+- [ ] You reference a specific product, page, email, or ad by name — not generics like "your content"
+
+**Copy quality**
+- [ ] The email is under 150 words (Email 1) or under 175 words (Emails 2–3)
+- [ ] There is exactly one ask and it requires a one-line reply — no calendar links, no forms
+- [ ] You did not use the words "innovative," "cutting-edge," "revolutionary," or "game-changing"
+- [ ] You did not mention pricing, packages, or retainers
+- [ ] The email sounds like a person wrote it, not a template
+
+**Technical**
+- [ ] Subject line is under 50 characters and lowercase (no title case, no emojis)
+- [ ] No images, no HTML formatting, no signatures with logos — plain text only
+- [ ] Sending from brad@copydtc.com with "Brad Bieselin" as the display name
+- [ ] You are sending between 8am and 11am in the recipient's local time zone, Tuesday through Thursday
+- [ ] The prospect is not on your do-not-contact list and has not previously unsubscribed
+
+**Sequence discipline**
+- [ ] If this is Email 2, 3, or 4 — you confirmed the previous email was actually delivered (not bounced)
+- [ ] If they replied to any previous email, STOP the sequence and respond personally
+- [ ] If they opened but didn't reply, proceed with the next email on schedule
+- [ ] If they haven't opened any emails by Email 3, switch to a different subject line angle for the breakup
+
+---
+
+## DISQUALIFICATION CRITERIA
+
+Do not send this sequence to a prospect if any of the following are true. Remove them from the list and move on.
+
+**Wrong fit**
+- Annual revenue is under $500K or over $15M (under $500K can't afford the service; over $15M has an in-house team)
+- The brand is not DTC ecommerce — no B2B, no SaaS, no local services, no marketplaces
+- They sell a single low-AOV product with no upsell path (not enough margin to justify a content investment)
+- The brand is pre-launch or has fewer than 5 products live on their site
+
+**Content is already strong**
+- Their welcome email flow is 4+ emails with clear CTAs, social proof, and product links in each
+- Their product pages lead with benefits, include reviews, and have structured copy — not just a paragraph
+- Their ads have specific hooks, clear value propositions, and dedicated landing pages
+- Their email open rates are visibly strong (lots of engagement on social posts promoting email-exclusive offers)
+- You genuinely cannot find a meaningful improvement to suggest — do not manufacture weaknesses
+
+**Signals they won't convert**
+- The brand is clearly going out of business (clearance sales across the entire site, dead social accounts)
+- Their website hasn't been updated in 6+ months (last blog post, last product launch, last email)
+- They have a "We're hiring a copywriter" post live — they want in-house, not an agency
+- You've already sent a previous sequence to this brand and they didn't respond (wait 6 months before trying again)
+- They are a direct competitor's client and you know it (don't poach — earn the switch if they come to you)
+
+**Ethical**
+- You cannot find a genuine, specific weakness in their content — do not send a fake observation
+- The brand sells products you're not comfortable promoting (use your judgment)
+- The contact email is a generic inbox (info@, hello@, support@) with no way to find the founder or marketing lead's direct email — these emails will never reach a decision-maker
